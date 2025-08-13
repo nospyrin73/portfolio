@@ -1,801 +1,823 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohamed Zuhair | Portfolio</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Zuhair | Portfolio</title>
 
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <!--
+    <!--
     - swiper
    -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  </head>
 
-<body>
+  <body>
 
-  <!--
+    <!--
     - #MAIN
   -->
 
-  <main>
+    <main>
 
-    <!--
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
+        <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.jpeg" alt="Mohamed Zuhair" width="80">
-        </figure>
+          <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.jpeg" alt="Mohamed Zuhair" width="80">
+          </figure>
 
-        <div class="info-content">
-          <h1 class="name" title="Mohamed Zuhair">Mohamed Zuhair</h1>
+          <div class="info-content">
+            <h1 class="name" title="Mohamed Zuhair">Mohamed Zuhair</h1>
 
-          <p class="title">Web developer</p>
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <div class="separator"></div>
 
-      </div>
+          <ul class="contacts-list">
 
-      <div class="sidebar-info_more">
+            <li class="contact-item">
 
-        <div class="separator"></div>
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-          <li class="contact-item">
+                <a href="mailto:mohamed.zuhair@protonmail.ch" class="contact-link">mohamed.zuhair@protonmail.ch</a>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+            <li class="contact-item">
 
-              <a href="mailto:mohamed.zuhair@protonmail.ch" class="contact-link">mohamed.zuhair@protonmail.ch</a>
-            </div>
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-          </li>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+                <a href="tel:+966" class="contact-link">+966 0533088267</a>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+            <li class="contact-item">
 
-              <a href="tel:+966" class="contact-link">+966 0533088267</a>
-            </div>
+              <div class="icon-box">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </div>
 
-          </li>
+              <div class="contact-info">
+                <p class="contact-title">Whatsapp</p>
 
-          <li class="contact-item">
+                <a class="contact-link">+966 0531839745</a>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="logo-whatsapp"></ion-icon>
-            </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Whatsapp</p>
+            <li class="contact-item">
 
-              <a class="contact-link">+966 0531839745</a>
-            </div>
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
 
-          </li>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
 
-          <li class="contact-item">
+                <time datetime="2000-01-28">January, 28 2000</time>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+            <li class="contact-item">
 
-              <time datetime="2000-01-28">January, 28 2000</time>
-            </div>
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-          </li>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-          <li class="contact-item">
+                <address>Saudi Arabia</address>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
+          </ul>
 
-              <address>Saudi Arabia</address>
-            </div>
+          <div class="separator"></div>
 
-          </li>
+          <ul class="social-list">
 
-        </ul>
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/mohamed-zuhair-52a682232" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
 
-        <div class="separator"></div>
+            <li class="social-item">
+              <a href="https://github.com/nospyrin73" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
 
-        <ul class="social-list">
+          </ul>
 
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/mohamed-zuhair-52a682232" class="social-link" target="_blank">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
+        </div>
 
-          <li class="social-item">
-            <a href="https://github.com/nospyrin73" class="social-link" target="_blank">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
+      </aside>
 
 
 
 
 
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
+      <div class="main-content">
 
-      <!--
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
 
-        <ul class="navbar-list">
+          <ul class="navbar-list">
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
 
-        </ul>
+          </ul>
 
-      </nav>
-
-
+        </nav>
 
 
 
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-
-
-
-          <p>
-            I'm a Software Engineer with a passion for creating user-friendly and visually appealing web applications.
-            With experience in both front-end and back-end development, I take pride in turning complex requirements into smooth,
-            intuitive designs that enhance user experience.
-          </p>
-
-          <p>
-            My approach combines functionality with aesthetics,
-            ensuring the websites I build are not only efficient and scalable but also engaging for users.
-             I focus on bringing a personal touch to every project, tailoring solutions to meet your brand's needs
-             while making sure the end result is both eye-catching and easy to navigate. Having worked on high-profile projects,
-             I deliver solutions that resonate with users and elevate brands.
-          </p>
-        </section>
 
 
         <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+
+
+
+            <p>
+              I'm a Software Engineer with a passion for creating user-friendly and visually appealing web applications.
+              With experience in both front-end and back-end development, I take pride in turning complex requirements
+              into smooth,
+              intuitive designs that enhance user experience.
+            </p>
+
+            <p>
+              My approach combines functionality with aesthetics,
+              ensuring the websites I build are not only efficient and scalable but also engaging for users.
+              I focus on bringing a personal touch to every project, tailoring solutions to meet your brand's needs
+              while making sure the end result is both eye-catching and easy to navigate. Having worked on high-profile
+              projects,
+              I deliver solutions that resonate with users and elevate brands.
+            </p>
+          </section>
+
+
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+            <h3 class="h3 service-title">What i'm doing</h3>
 
-          <ul class="service-list">
+            <ul class="service-list">
 
-            <li class="service-item">
+              <li class="service-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
                 " alt="design icon" width="40">
-              </div>
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
 
-                <p class="service-item-text">
-                  Modern, user-friendly designs that captivate visitors and enhance their experience.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    Modern, user-friendly designs that captivate visitors and enhance their experience.
+                  </p>
+                </div>
 
-            </li>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
 
-                <p class="service-item-text">
-                  Robust and reliable website development that ensures seamless functionality and security.
+                  <p class="service-item-text">
+                    Robust and reliable website development that ensures seamless functionality and security.
 
 
-                </p>
-              </div>
+                  </p>
+                </div>
 
-            </li>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-logo-diz.svg" alt="Logo design icon" width="40">
-              </div>
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-logo-diz.svg" alt="Logo design icon" width="40">
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Logo design</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Logo design</h4>
 
-                <p class="service-item-text">
-                  Unique and memorable logos that effectively represent your brand identity.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    Unique and memorable logos that effectively represent your brand identity.
+                  </p>
+                </div>
 
-            </li>
+              </li>
 
-          </ul>
+            </ul>
 
-        </section>
+          </section>
 
-      </article>
+        </article>
 
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <section class="timeline">
+          <section class="timeline">
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
 
-          <ol class="timeline-list">
+              <li class="timeline-item">
 
-            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">The British University in Egypt</h4>
 
-              <h4 class="h4 timeline-item-title">The British University in Egypt</h4>
+                <span>2017 — 2021</span>
 
-              <span>2017 — 2021</span>
+                <p class="timeline-text">
+                  Bachelor's degree in Computer Networking, Computer Science.
+                </p>
 
-              <p class="timeline-text">
-                Bachelor's degree in Computer Networking, Computer Science.
-              </p>
+              </li>
 
-            </li>
+            </ol>
 
-          </ol>
+          </section>
 
-        </section>
+          <section class="timeline">
 
-        <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
 
-          <ol class="timeline-list">
+              <li class="timeline-item">
 
-            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Scandiweb</h4>
 
-              <h4 class="h4 timeline-item-title">Scandiweb</h4>
+                <span>2021 - 2024</span>
 
-              <span>2021 - 2024</span>
+                <p class="timeline-text">
 
-              <p class="timeline-text">
+                </p>
 
-              </p>
+              </li>
 
-            </li>
+            </ol>
 
-          </ol>
+          </section>
 
-        </section>
+          <section class="skill">
 
-        <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
 
-          <h3 class="h3 skills-title">My skills</h3>
+            <ul class="skills-list">
 
-          <ul class="skills-list">
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">HTML</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CSS</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">CSS</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">JavaScript</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">TypeScript</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">TypeScript</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">React</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Node.js</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Node.js</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">PHP</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">PHP</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Magento</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Magento</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MySQL</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">MySQL</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MongoDB</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">MongoDB</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Docker</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Docker</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">GraphQl</h5>
+                </div>
 
-            <li class="content-card skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">GraphQl</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Git</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Git</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">GitHub</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">GitHub</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Jira</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Jira</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
 
-            <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Google Cloud</h5>
+                </div>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Google Cloud</h5>
-              </div>
 
+              </li>
 
-            </li>
+              <li class="content-card skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Linux</h5>
+                </div>
 
-            <li class="content-card skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Linux</h5>
-              </div>
 
+              </li>
 
-            </li>
+            </ul>
 
-          </ul>
+          </section>
 
-        </section>
+        </article>
 
-      </article>
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
 
-        <section class="projects">
+          <section class="projects">
 
-          <ul class="project-list">
+            <ul class="project-list">
 
-            <li class="project-item active" data-filter-item data-category="web development" id="novatours">
-              <a href="https://www.novaturas.lt" target="_blank">
+              <li class="project-item active" data-filter-item data-category="web development" id="novatours">
+                <a href="https://www.novaturas.lt" target="_blank">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="link-outline"></ion-icon>
-                  </div>
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/novatours/thumbnail.png" alt="finance" loading="lazy">
-                </figure>
+                    <img src="./assets/images/novatours/thumbnail.png" alt="finance" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">Novatours</h3>
+                  <h3 class="project-title">Novatours</h3>
 
-                <p class="project-category">Traveling Agency</p>
+                  <p class="project-category">Traveling Agency</p>
 
-              </a>
-            </li>
+                </a>
+              </li>
 
-            <li class="project-item active" data-filter-item data-category="web development" id="essos">
-              <a href="https://github.com/nospyrin73/essos" target="_blank">
+              <li class="project-item active" data-filter-item data-category="web development" id="essos">
+                <a href="https://github.com/nospyrin73/essos" target="_blank">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="link-outline"></ion-icon>
-                  </div>
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/essos/thumbnail.png" alt="orizon" loading="lazy">
-                </figure>
+                    <img src="./assets/images/essos/thumbnail.png" alt="orizon" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">Essos</h3>
+                  <h3 class="project-title">Essos</h3>
 
-                <p class="project-category">Chat Application</p>
+                  <p class="project-category">Chat Application</p>
 
-              </a>
-            </li>
+                </a>
+              </li>
 
-            <li class="project-item active carousel" data-filter-item data-category="web design" id="xurio">
-              <a href="#">
+              <li class="project-item active carousel" data-filter-item data-category="web design" id="xurio">
+                <a href="#">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/xurio/thumbnail.png" alt="fundo" loading="lazy">
-                </figure>
+                    <img src="./assets/images/xurio/thumbnail.png" alt="fundo" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">Xurio</h3>
+                  <h3 class="project-title">Xurio</h3>
 
-                <p class="project-category">Media Aggregator</p>
+                  <p class="project-category">Media Aggregator</p>
 
-              </a>
+                </a>
 
-              <div class="carousel-data">
-                <img src="./assets/images/xurio/home.png" />
-                <img src="./assets/images/xurio/entry.png" />
-                <img src="./assets/images/xurio/dashboard.png" />
-                <img src="./assets/images/xurio/profile.png" />
-                <img src="./assets/images/xurio/network.png" />
-                <img src="./assets/images/xurio/progress.png" />
-              </div>
-            </li>
+                <div class="carousel-data">
+                  <img src="./assets/images/xurio/home.png" />
+                  <img src="./assets/images/xurio/entry.png" />
+                  <img src="./assets/images/xurio/dashboard.png" />
+                  <img src="./assets/images/xurio/profile.png" />
+                  <img src="./assets/images/xurio/network.png" />
+                  <img src="./assets/images/xurio/progress.png" />
+                </div>
+              </li>
 
-            <li class="project-item active carousel" data-filter-item data-category="applications" id="tech_care">
-              <a href="#">
+              <li class="project-item active carousel" data-filter-item data-category="applications" id="tech_care">
+                <a href="#">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/tech_care/thumbnail.png" alt="brawlhalla" loading="lazy">
-                </figure>
+                    <img src="./assets/images/tech_care/thumbnail.png" alt="nah" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">Tech.Care</h3>
+                  <h3 class="project-title">Tech.Care</h3>
 
-                <p class="project-category">Medical Dashboard</p>
+                  <p class="project-category">Medical Dashboard</p>
 
-              </a>
+                </a>
 
-              <div class="carousel-data">
-                <img src="./assets/images/tech_care/dashboard.png" />
-              </div>
-            </li>
+                <div class="carousel-data">
+                  <img src="./assets/images/tech_care/dashboard.png" />
+                </div>
+              </li>
 
-            <li class="project-item active" data-filter-item data-category="applications" id="portfolio">
-              <a href="#" target="_blank">
+              <li class="project-item active" data-filter-item data-category="applications" id="portfolio">
+                <a href="#" target="_blank">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="link-outline"></ion-icon>
-                  </div>
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/portfolio/thumbnail.png" alt="brawlhalla" loading="lazy">
-                </figure>
+                    <img src="./assets/images/portfolio/thumbnail.png" alt="nah" loading="lazy">
+                  </figure>
 
-                <h3 class="project-title">Portfolio</h3>
+                  <h3 class="project-title">Portfolio</h3>
 
-                <p class="project-category">Personal Website</p>
+                  <p class="project-category">Personal Website</p>
 
-              </a>
-            </li>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="applications" id="silver_scent">
+                <a href="#" target="_blank">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/silver_scent/thumbnail.png" alt="nah" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Silver Scent</h3>
+
+                  <p class="project-category">Fragrances Store</p>
+
+                </a>
+              </li>
 
 
 
-          </ul>
+            </ul>
 
-        </section>
+          </section>
 
-      </article>
+        </article>
 
-      <!--
+        <!--
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+        <article class="blog" data-page="blog">
 
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
 
-        <section class="blog-posts">
+          <section class="blog-posts">
 
-          <ul class="blog-posts-list">
+            <ul class="blog-posts-list">
 
-            <li class="blog-post-item">
-              <a href="https://dev.to/nospyrin73/discover-the-magic-of-higher-order-components-in-react-2obl">
+              <li class="blog-post-item">
+                <a href="https://dev.to/nospyrin73/discover-the-magic-of-higher-order-components-in-react-2obl">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-1.jpg" alt="Design digest #79" loading="lazy">
+                  </figure>
 
-                <div class="blog-content">
+                  <div class="blog-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">React</p>
+                    <div class="blog-meta">
+                      <p class="blog-category">React</p>
 
-                    <span class="dot"></span>
+                      <span class="dot"></span>
 
-                    <time datetime="2022-02-23">May 8, 2023</time>
+                      <time datetime="2022-02-23">May 8, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Discover the Magic of Higher Order Components in React</h3>
+
+                    <p class="blog-text">
+                      If you're a React developer, you've probably heard of higher-order components...
+                    </p>
+
                   </div>
 
-                  <h3 class="h3 blog-item-title">Discover the Magic of Higher Order Components in React</h3>
+                </a>
+              </li>
 
-                  <p class="blog-text">
-                    If you're a React developer, you've probably heard of higher-order components...
-                  </p>
+            </ul>
 
-                </div>
+          </section>
 
-              </a>
-            </li>
+        </article>
 
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!--
+        <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+        <article class="contact" data-page="contact">
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe width="400" height="300" src="https://maps.google.com/maps?q=Wadi%20Ad-Dawasir&output=embed"></iframe>
-          </figure>
-        </section>
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe width="400" height="300"
+                src="https://maps.google.com/maps?q=Wadi%20Ad-Dawasir&output=embed"></iframe>
+            </figure>
+          </section>
 
-        <section class="contact-form">
+          <section class="contact-form">
 
-          <h3 class="h3 form-title">Contact Form</h3>
+            <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="https://formspree.io/f/mgveeyew" method="POST" data-form>
+            <form action="https://formspree.io/f/mgveeyew" method="POST" data-form>
 
-            <div class="input-wrapper">
-              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+              <div class="input-wrapper">
+                <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required
+                  data-form-input>
+              </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+              <textarea name="message" class="form-input" placeholder="Your Message" required
+                data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
 
-          </form>
+            </form>
 
-        </section>
+          </section>
 
-      </article>
+        </article>
 
-    </div>
-
-    <!--
-      - #PROJECT POPOVER
-    -->
-    <div class="project-popover" tabindex="1">
-      <div class="swiper-container">
-        <div class="swiper main-swiper" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff">
-
-          <div class="swiper-wrapper"></div>
-
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
       </div>
 
-    </div>
+      <!--
+      - #PROJECT POPOVER
+    -->
+      <div class="project-popover" tabindex="1">
+        <div class="swiper-container">
+          <div class="swiper main-swiper" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff">
+
+            <div class="swiper-wrapper"></div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+
+      </div>
 
     </main>
 
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <!--
+    <!--
     - swiper script
    -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="./assets/js/swiper.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+  </body>
 
 </html>
-
